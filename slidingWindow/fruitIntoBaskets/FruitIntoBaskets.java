@@ -1,4 +1,7 @@
-import  java.util.*;
+package SlidingWindow.fruitIntoBaskets;
+
+import java.util.*;
+
 class FruitIntoBaskets{
     public static void main(String[] args) {
         int ans = Solution.totalFruit(new int[]{0,1,2,2});

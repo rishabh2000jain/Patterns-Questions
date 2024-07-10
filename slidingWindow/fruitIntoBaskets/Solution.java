@@ -1,14 +1,10 @@
 package SlidingWindow.fruitIntoBaskets;
-
 import java.util.*;
-
-class FruitIntoBaskets{
+class Solution {
     public static void main(String[] args) {
-        int ans = Solution.totalFruit(new int[]{0,1,2,2});
+        int ans = totalFruit(new int[]{0,1,2,2});
         System.out.println(ans);
     }
-}
-class Solution {
     public static int totalFruit(int[] fruits) {
         Map<Integer,Integer> basket = new HashMap<>();
         int left = 0,right=0;
